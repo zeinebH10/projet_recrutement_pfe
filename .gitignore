@@ -1,26 +1,35 @@
-# Backend (Spring Boot) - dans recruitment-zeineb
-recruitment-zeineb/target/
-recruitment-zeineb/*.jar
-recruitment-zeineb/*.war
-recruitment-zeineb/.mvn/
-recruitment-zeineb/mvnw
-recruitment-zeineb/mvnw.cmd
-
-# Frontend (Angular) - dans plateforme-recrutement  
-plateforme-recrutement/node_modules/
-plateforme-recrutement/dist/
-plateforme-recrutement/.angular/
-plateforme-recrutement/npm-debug.log*
-plateforme-recrutement/yarn-error.log
-
-# IDEs
-.idea/
-.vscode/
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
 *.iml
+/.idea
+/.settings
+/.project
 
-# OS
+# Maven
+.mvn/
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# Node / Angular
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.angular/
+
+# IDEs / OS
+.vscode/
 .DS_Store
-Thumbs.db
+*.log
 
-# Logs
-*.log 
+# Secrets / properties
+src/main/resources/application-*.yml
+src/main/resources/application-*.properties
+.env
