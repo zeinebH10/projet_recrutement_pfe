@@ -1,0 +1,26 @@
+# Backend (Spring Boot) - dans recruitment-zeineb
+recruitment-zeineb/target/
+recruitment-zeineb/*.jar
+recruitment-zeineb/*.war
+recruitment-zeineb/.mvn/
+recruitment-zeineb/mvnw
+recruitment-zeineb/mvnw.cmd
+
+# Frontend (Angular) - dans plateforme-recrutement  
+plateforme-recrutement/node_modules/
+plateforme-recrutement/dist/
+plateforme-recrutement/.angular/
+plateforme-recrutement/npm-debug.log*
+plateforme-recrutement/yarn-error.log
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log 
